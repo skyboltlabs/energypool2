@@ -7,21 +7,21 @@ import { SEO } from '../components/SEO';
 
 const projects = [
   // Waterproofing
-  { id: 1, category: 'Waterproofing', title: 'Roof Refurbishment', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/roof_roller.jpg', client: 'Cresta Hotels', desc: 'Complete torch-on waterproofing of the main hotel roof deck, including gutter replacement.' },
-  { id: 2, category: 'Waterproofing', title: 'Turnall Factory Roof Sealing', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/roof_tank.jpg', client: 'Turnall', desc: 'Heavy-duty industrial waterproofing and IBR sheet sealing for manufacturing plant.' },
-  { id: 3, category: 'Waterproofing', title: 'Private Residence Shingle Roof', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/tiled_roof.jpg', client: 'Private Client', desc: 'Repair and sealing of asphalt shingle roofing system.' },
+  { id: 1, category: 'Waterproofing', title: 'Roof Refurbishment', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/roof_roller.jpg', client: 'Cresta Hotels', desc: 'Complete torch-on waterproofing of the main hotel roof deck, including gutter replacement.' },
+  { id: 2, category: 'Waterproofing', title: 'Turnall Factory Roof Sealing', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/roof_tank.jpg', client: 'Turnall', desc: 'Heavy-duty industrial waterproofing and IBR sheet sealing for manufacturing plant.' },
+  { id: 3, category: 'Waterproofing', title: 'Private Residence Shingle Roof', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/tiled_roof.jpg', client: 'Private Client', desc: 'Repair and sealing of asphalt shingle roofing system.' },
   
   // Finishes (Painting/Epoxy)
-  { id: 4, category: 'Finishes', title: 'Precision Grinders Epoxy Floor', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/epoxy_floor.jpg', client: 'Precision Grinders', desc: 'Installation of high-traffic chemical resistant epoxy flooring in the main workshop.' },
-  { id: 5, category: 'Finishes', title: 'Renovation', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/ceiling_work.jpg', client: 'OK Mart', desc: 'Complete interior painting and tiling.' },
-  { id: 6, category: 'Finishes', title: 'Apartment Complex Exterior', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/wall_construction.jpg', client: 'Property Manager', desc: 'Full exterior painting and crack filling for a 20-unit complex.' },
+  { id: 4, category: 'Finishes', title: 'Precision Grinders Epoxy Floor', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/epoxy_floor.jpg', client: 'Precision Grinders', desc: 'Installation of high-traffic chemical resistant epoxy flooring in the main workshop.' },
+  { id: 5, category: 'Finishes', title: 'Renovation', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/ceiling_work.jpg', client: 'OK Mart', desc: 'Complete interior painting and tiling.' },
+  { id: 6, category: 'Finishes', title: 'Apartment Complex Exterior', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/wall_construction.jpg', client: 'Property Manager', desc: 'Full exterior painting and crack filling for a 20-unit complex.' },
 
   // Maintenance & Utilities
-  { id: 7, category: 'Maintenance', title: 'Guttering', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/gutter_repair.jpg', client: 'Delta Beverages', desc: 'Fabrication and installation of large-scale industrial box gutters.' },
-  { id: 8, category: 'Maintenance', title: 'Plumbing Overhaul', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/roof_prep.jpg', client: 'Government School', desc: 'Renovation of sanitary ware and drainage systems for school ablutions.' },
-  { id: 9, category: 'Maintenance', title: 'Perimeter Razor Wire', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/brick_house.jpg', client: 'Gated Community', desc: 'Installation of high-security flat wrap razor wire along perimeter walls.' },
-  { id: 10, category: 'Maintenance', title: 'Factory Ventilation System', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/roof_tank.jpg', client: 'Industrial Client', desc: 'Installation of whirlybirds and air ducts for factory cooling.' },
-  { id: 11, category: 'Maintenance', title: 'Balcony Waterproofing', image: 'https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/balcony_work.jpg', client: 'The Aperture Complex', desc: 'installation of a robust two-ply bituminous membrane system on a cantilevered concrete balcony.' },
+  { id: 7, category: 'Maintenance', title: 'Guttering', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/gutter_repair.jpg', client: 'Delta Beverages', desc: 'Fabrication and installation of large-scale industrial box gutters.' },
+  { id: 8, category: 'Maintenance', title: 'Plumbing Overhaul', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/roof_prep.jpg', client: 'Government School', desc: 'Renovation of sanitary ware and drainage systems for school ablutions.' },
+  { id: 9, category: 'Maintenance', title: 'Perimeter Razor Wire', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/brick_house.jpg', client: 'Gated Community', desc: 'Installation of high-security flat wrap razor wire along perimeter walls.' },
+  { id: 10, category: 'Maintenance', title: 'Factory Ventilation System', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/roof_tank.jpg', client: 'Industrial Client', desc: 'Installation of whirlybirds and air ducts for factory cooling.' },
+  { id: 11, category: 'Maintenance', title: 'Balcony Waterproofing', image: 'https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/balcony_work.jpg', client: 'The Aperture Complex', desc: 'installation of a robust two-ply bituminous membrane system on a cantilevered concrete balcony.' },
 ];
 
 export const Projects: React.FC = () => {
@@ -54,7 +54,7 @@ export const Projects: React.FC = () => {
               <div className="flex flex-col lg:flex-row gap-12 items-center">
                   <div className="w-full lg:w-1/2">
                       <div className="relative overflow-hidden rounded-lg shadow-2xl group">
-                          <img src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/roof_torch.jpg" alt="Featured Project" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-1000" loading="lazy" />
+                          <img src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/roof_torch.jpg" alt="Featured Project" className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-1000" loading="lazy" />
                           <div className="absolute top-4 left-4 bg-teal-600 text-white text-xs font-bold px-3 py-1 rounded uppercase tracking-wider">Featured Project</div>
                       </div>
                   </div>
