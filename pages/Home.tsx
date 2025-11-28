@@ -236,14 +236,14 @@ export const Home: React.FC = () => {
               icon={<Building2 className="w-10 h-10" />}
               title="Building Construction"
               description="Complete building services from foundation to roof, including new structures and major renovations."
-              image="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/brick_house.jpg"
+              image="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/brick_house.jpg"
               link="/services"
             />
             <ServiceCard 
               icon={<Droplets className="w-10 h-10" />}
               title="Waterproofing & Guttering"
               description="Industrial torch-on systems, roof shingle repairs, and guttering installation to keep your property dry."
-              image="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/roof_roller.jpg"
+              image="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/roof_roller.jpg"
               link="/waterproofing"
               highlight
             />
@@ -251,14 +251,14 @@ export const Home: React.FC = () => {
               icon={<PaintBucket className="w-10 h-10" />}
               title="Painting & Epoxy"
               description="High-traffic epoxy flooring and premium interior/exterior painting for commercial and industrial facilities."
-              image="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/epoxy_floor.jpg"
+              image="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/epoxy_floor.jpg"
               link="/services"
             />
              <ServiceCard 
               icon={<Wrench className="w-10 h-10" />}
               title="General Maintenance"
               description="Plumbing, ceilings, razor wire security, and comprehensive facility repairs."
-              image="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/ceiling_work.jpg"
+              image="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/ceiling_work.jpg"
               link="/services"
               
             />
@@ -279,14 +279,14 @@ export const Home: React.FC = () => {
             <h3 className="text-3xl font-serif font-bold text-white mb-8">Specialists At Work</h3>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 w-full">
-            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/roof_torch.jpg" title="Torch-on Waterproofing" />
-            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/gutter_repair.jpg" title="Gutter Installation" />
-            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/scaffold_painting.jpg" title="Industrial Painting" />
-            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/epoxy_floor.jpg" title="Epoxy Flooring" />
-            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/ceiling_work.jpg" title="Ceiling Installation" />
-            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/tiled_roof.jpg" title="Roof Maintenance" />
-            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/roof_roller.jpg" title="Bitumen Priming" />
-            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/brick_house.jpg" title="General Construction" />
+            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/roof_torch.jpg" title="Torch-on Waterproofing" />
+            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/gutter_repair.jpg" title="Gutter Installation" />
+            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/scaffold_painting.jpg" title="Industrial Painting" />
+            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/epoxy_floor.jpg" title="Epoxy Flooring" />
+            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/ceiling_work.jpg" title="Ceiling Installation" />
+            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/tiled_roof.jpg" title="Roof Maintenance" />
+            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/roof_roller.jpg" title="Bitumen Priming" />
+            <ActionImage src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/brick_house.jpg" title="General Construction" />
         </div>
       </section>
 
@@ -322,7 +322,7 @@ export const Home: React.FC = () => {
       {/* CTA Section */}
       <section className="py-32 relative overflow-hidden bg-slate-900">
         <div className="absolute inset-0 z-0">
-            <img src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/tiled_roof.jpg" alt="Roof Finish" className="w-full h-full object-cover opacity-20" loading="lazy" />
+            <img src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/tiled_roof.jpg" alt="Roof Finish" className="w-full h-full object-cover opacity-20" loading="lazy" />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-transparent"></div>
         </div>
         
