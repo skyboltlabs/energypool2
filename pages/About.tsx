@@ -95,7 +95,7 @@ export const About: React.FC = () => {
                       <img src="https://images.unsplash.com/photo-1667207591347-86f12a549411" alt="Torch Tool" className="rounded-lg shadow-lg w-full h-full object-cover" />
                       <div className="space-y-4">
                           <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd" alt="Paint Equipment" className="rounded-lg shadow-lg w-full h-48 object-cover" />
-                          <img src="https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/scaffold_painting.jpg" alt="Access Equipment" className="rounded-lg shadow-lg w-full h-48 object-cover" />
+                          <img src="https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/scaffold_painting.jpg" alt="Access Equipment" className="rounded-lg shadow-lg w-full h-48 object-cover" />
                       </div>
                   </div>
               </div>
