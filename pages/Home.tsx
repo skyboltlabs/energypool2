@@ -173,7 +173,7 @@ export const Home: React.FC = () => {
                 className="relative z-10"
               >
                 <img 
-                  src="https://images.unsplash.com/photo-1589109807644-924edf14ee09" 
+                  src="https://images.unsplash.com/photo-1667207590884-d6dda4321644" 
                   alt="Industrial Flooring" 
                   className="w-full h-auto object-cover rounded shadow-2xl"
                   loading="lazy"
