@@ -11,7 +11,7 @@ const mainServices = [
     desc: "Our core specialty. We utilize industrial-grade torch-on bitumen systems to seal flat roofs, concrete decks, and foundations. We also provide guttering installation and shingle roof repairs.",
     features: ["Torch-on Waterproofing", "Roof Leak Repairs", "Guttering & Flashings", "Roof Shingles", "Concrete Deck Sealing", "Damp Proofing"],
     icon: <Droplets className="w-6 h-6" />,
-    image: "https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/roof_roller.jpg",
+    image: "https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/roof_roller.jpg",
     id: "waterproofing",
     link: "/waterproofing"
   },
@@ -20,7 +20,7 @@ const mainServices = [
     desc: "Enhance and protect your surfaces. We offer specialized epoxy flooring for industrial warehouses and garages, as well as premium interior and exterior painting services.",
     features: ["Industrial Epoxy Flooring", "Interior/Exterior Painting", "Floor Tiling", "Surface Preparation", "Protective Coatings", "Road Marking"],
     icon: <PaintBucket className="w-6 h-6" />,
-    image: "https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/epoxy_floor.jpg",
+    image: "https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/epoxy_floor.jpg",
     id: "finishes"
   },
   {
@@ -28,7 +28,7 @@ const mainServices = [
     desc: "Secure and finish your property. We install high-tensile razor wire for perimeter security and offer comprehensive ceiling solutions including IBR and suspended ceilings.",
     features: ["Razor Wire Installation", "IBR Ceilings", "Suspended Ceilings", "Partitioning (Aluminium/Timber)", "Perimeter Fencing", "Security Gates"],
     icon: <Scissors className="w-6 h-6" />,
-    image: "https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/ceiling_work.jpg",
+    image: "https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/ceiling_work.jpg",
     id: "security"
   },
   {
@@ -36,7 +36,7 @@ const mainServices = [
     desc: "Complete utility maintenance. From pipe ducting and sanitary ware installation to factory ventilation and general repairs, we keep your facility running smoothly.",
     features: ["Industrial Plumbing", "Pipe Ducting", "Factory Ventilation", "Sanitary Ware Install", "Air Conditioning Ducts", "General Repairs"],
     icon: <Pipette className="w-6 h-6" />,
-    image: "https://raw.githubusercontent.com/skyboltlabs/Energy-Pool/refs/heads/main/assets/gutter_repair.jpg",
+    image: "https://raw.githubusercontent.com/skyboltlabs/energypool2/refs/heads/main/assets/gutter_repair.jpg",
     id: "maintenance"
   }
 ];
